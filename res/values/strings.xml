@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spelling Lesson</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- others  -->
+    <string name="question_type">Type:</string>
+    
+    <!-- buttons -->
+    <string name="btn_next">Next</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_start">Start</string>
+
+</resources>

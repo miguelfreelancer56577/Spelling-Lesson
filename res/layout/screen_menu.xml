@@ -1,0 +1,428 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.mangelt.spellinglesson.MainActivity$PlaceholderFragment" >
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="menu image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vinilos_arte_arbol_con_letras_verdes_para_su_diseno"
+        tools:ignore="HardcodedText" />
+    
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:id="@+id/l1" >
+
+		    <RelativeLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:gravity="center">
+		    
+			    <ImageView
+			        android:layout_width="48dp"
+			        android:layout_height="48dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        
+			        android:contentDescription="lesson"
+			        android:scaleType="centerCrop"
+			        android:src="@drawable/confirm_shopping_cart_icon_94980"
+			         />
+			    
+			    <TextView 
+			       android:text="lesson 45"
+			       android:textSize="12sp"
+			       android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			       android:layout_marginTop="48dp"
+			       android:textAlignment="center"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content" />
+			
+			</RelativeLayout>
+			
+		        <RelativeLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:gravity="center">
+		    
+			    <ImageView
+			        android:layout_width="48dp"
+			        android:layout_height="48dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        android:contentDescription="lesson"
+			        android:scaleType="centerCrop"
+			        android:src="@drawable/confirm_shopping_cart_icon_94980"
+			         />
+			    
+			    <TextView 
+			       android:text="lesson 45"
+			       android:textSize="12sp"
+			       android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			       android:layout_marginTop="48dp"
+			       android:textAlignment="center"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content" />
+			
+			</RelativeLayout>
+		    
+		        <RelativeLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:gravity="center">
+		    
+			    <ImageView
+			        android:layout_width="48dp"
+			        android:layout_height="48dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        android:contentDescription="lesson"
+			        android:scaleType="centerCrop"
+			        android:src="@drawable/confirm_shopping_cart_icon_94980"
+			         />
+			    
+			    <TextView 
+			       android:text="lesson 45"
+			       android:textSize="12sp"
+			       android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			       android:layout_marginTop="48dp"
+			       android:textAlignment="center"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content" />
+			
+			</RelativeLayout>
+		        
+		        
+		</LinearLayout>
+		
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/l1"
+    android:id="@+id/l2"
+     >
+
+		    <RelativeLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:gravity="center">
+		    
+			    <ImageView
+			        android:layout_width="48dp"
+			        android:layout_height="48dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        
+			        android:contentDescription="lesson"
+			        android:scaleType="centerCrop"
+			        android:src="@drawable/confirm_shopping_cart_icon_94980"
+			         />
+			    
+			    <TextView 
+			       android:text="lesson 45"
+			       android:textSize="12sp"
+			       android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			       android:layout_marginTop="48dp"
+			       android:textAlignment="center"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content" />
+			
+			</RelativeLayout>
+			
+		        <RelativeLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:gravity="center">
+		    
+			    <ImageView
+			        android:layout_width="48dp"
+			        android:layout_height="48dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        android:contentDescription="lesson"
+			        android:scaleType="centerCrop"
+			        android:src="@drawable/confirm_shopping_cart_icon_94980"
+			         />
+			    
+			    <TextView 
+			       android:text="lesson 45"
+			       android:textSize="12sp"
+			       android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			       android:layout_marginTop="48dp"
+			       android:textAlignment="center"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content" />
+			
+			</RelativeLayout>
+		    
+		        <RelativeLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:gravity="center">
+		    
+			    <ImageView
+			        android:layout_width="48dp"
+			        android:layout_height="48dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        android:contentDescription="lesson"
+			        android:scaleType="centerCrop"
+			        android:src="@drawable/confirm_shopping_cart_icon_94980"
+			         />
+			    
+			    <TextView 
+			       android:text="lesson 45"
+			       android:textSize="12sp"
+			       android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			       android:layout_marginTop="48dp"
+			       android:textAlignment="center"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content" />
+			
+			</RelativeLayout>
+		        
+		        
+		</LinearLayout>
+		
+    
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/l2"
+    android:id="@+id/l3"
+     >
+
+		    <RelativeLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:gravity="center">
+		    
+			    <ImageView
+			        android:layout_width="48dp"
+			        android:layout_height="48dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        
+			        android:contentDescription="lesson"
+			        android:scaleType="centerCrop"
+			        android:src="@drawable/confirm_shopping_cart_icon_94980"
+			         />
+			    
+			    <TextView 
+			       android:text="lesson 45"
+			       android:textSize="12sp"
+			       android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			       android:layout_marginTop="48dp"
+			       android:textAlignment="center"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content" />
+			
+			</RelativeLayout>
+			
+		        <RelativeLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:gravity="center">
+		    
+			    <ImageView
+			        android:layout_width="48dp"
+			        android:layout_height="48dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        android:contentDescription="lesson"
+			        android:scaleType="centerCrop"
+			        android:src="@drawable/confirm_shopping_cart_icon_94980"
+			         />
+			    
+			    <TextView 
+			       android:text="lesson 45"
+			       android:textSize="12sp"
+			       android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			       android:layout_marginTop="48dp"
+			       android:textAlignment="center"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content" />
+			
+			</RelativeLayout>
+		    
+		        <RelativeLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:gravity="center">
+		    
+			    <ImageView
+			        android:layout_width="48dp"
+			        android:layout_height="48dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        android:contentDescription="lesson"
+			        android:scaleType="centerCrop"
+			        android:src="@drawable/confirm_shopping_cart_icon_94980"
+			         />
+			    
+			    <TextView 
+			       android:text="lesson 45"
+			       android:textSize="12sp"
+			       android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			       android:layout_marginTop="48dp"
+			       android:textAlignment="center"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content" />
+			
+			</RelativeLayout>
+		        
+		        
+		</LinearLayout>
+    
+
+</RelativeLayout>
+
+
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:layout_width="48dp"
+        android:id="@+id/img1"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="lesson"
+        android:scaleType="centerCrop"
+        android:src="@drawable/confirm_shopping_cart_icon_94980"
+        tools:ignore="HardcodedText" />
+    
+    <TextView 
+       android:text="lesson 45"
+       android:textSize="12sp"
+       android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+       android:layout_marginTop="48dp"
+       android:textAlignment="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+</RelativeLayout>
+-->
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center">
+    
+	    <ImageView
+	        android:layout_width="48dp"
+	        android:layout_height="48dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        
+	        android:contentDescription="lesson"
+	        android:scaleType="centerCrop"
+	        android:src="@drawable/confirm_shopping_cart_icon_94980"
+	         />
+	    
+	    <TextView 
+	       android:text="lesson 45"
+	       android:textSize="12sp"
+	       android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	       android:layout_marginTop="48dp"
+	       android:textAlignment="center"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" />
+	
+	</RelativeLayout>
+	
+        <RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center">
+    
+	    <ImageView
+	        android:layout_width="48dp"
+	        android:layout_height="48dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:contentDescription="lesson"
+	        android:scaleType="centerCrop"
+	        android:src="@drawable/confirm_shopping_cart_icon_94980"
+	         />
+	    
+	    <TextView 
+	       android:text="lesson 45"
+	       android:textSize="12sp"
+	       android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	       android:layout_marginTop="48dp"
+	       android:textAlignment="center"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" />
+	
+	</RelativeLayout>
+    
+        <RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center">
+    
+	    <ImageView
+	        android:layout_width="48dp"
+	        android:layout_height="48dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:contentDescription="lesson"
+	        android:scaleType="centerCrop"
+	        android:src="@drawable/confirm_shopping_cart_icon_94980"
+	         />
+	    
+	    <TextView 
+	       android:text="lesson 45"
+	       android:textSize="12sp"
+	       android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	       android:layout_marginTop="48dp"
+	       android:textAlignment="center"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" />
+	
+	</RelativeLayout>
+        
+        
+</LinearLayout> -->

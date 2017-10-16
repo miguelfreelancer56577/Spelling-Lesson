@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="image question"
+        android:paddingLeft="256dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/arbol_de_letras" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/editText1"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_marginRight="16dp"
+        android:text="@string/question_type"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="300dp"
+        android:ems="10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_style_login"
+        android:text="@string/btn_next"
+        android:layout_marginRight="16dp"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/btn_style_continue"
+        android:text="@string/btn_continue"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+    
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="255dp"
+        android:layout_marginRight="18dp"
+        android:text="to spell"
+        android:textSize="22sp"
+        android:textColor="#ff0000" />
+
+</RelativeLayout>
