@@ -1089,36 +1089,37 @@ containing a value of this type.
         public static final int abc_max_action_buttons=0x7f090000;
     }
     public static final class layout {
-        public static final int abc_action_bar_decor=0x7f030000;
-        public static final int abc_action_bar_decor_include=0x7f030001;
-        public static final int abc_action_bar_decor_overlay=0x7f030002;
-        public static final int abc_action_bar_home=0x7f030003;
-        public static final int abc_action_bar_tab=0x7f030004;
-        public static final int abc_action_bar_tabbar=0x7f030005;
-        public static final int abc_action_bar_title_item=0x7f030006;
-        public static final int abc_action_bar_view_list_nav_layout=0x7f030007;
-        public static final int abc_action_menu_item_layout=0x7f030008;
-        public static final int abc_action_menu_layout=0x7f030009;
-        public static final int abc_action_mode_bar=0x7f03000a;
-        public static final int abc_action_mode_close_item=0x7f03000b;
-        public static final int abc_activity_chooser_view=0x7f03000c;
-        public static final int abc_activity_chooser_view_include=0x7f03000d;
-        public static final int abc_activity_chooser_view_list_item=0x7f03000e;
-        public static final int abc_expanded_menu_layout=0x7f03000f;
-        public static final int abc_list_menu_item_checkbox=0x7f030010;
-        public static final int abc_list_menu_item_icon=0x7f030011;
-        public static final int abc_list_menu_item_layout=0x7f030012;
-        public static final int abc_list_menu_item_radio=0x7f030013;
-        public static final int abc_popup_menu_item_layout=0x7f030014;
-        public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
-        public static final int abc_search_view=0x7f030016;
-        public static final int activity_main=0x7f030017;
-        public static final int example=0x7f030018;
-        public static final int screen_login=0x7f030019;
-        public static final int screen_menu=0x7f03001a;
-        public static final int screen_question=0x7f03001b;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
-        public static final int test_inflate_screen_menu=0x7f03001d;
+        public static final int a_screen_login=0x7f030000;
+        public static final int abc_action_bar_decor=0x7f030001;
+        public static final int abc_action_bar_decor_include=0x7f030002;
+        public static final int abc_action_bar_decor_overlay=0x7f030003;
+        public static final int abc_action_bar_home=0x7f030004;
+        public static final int abc_action_bar_tab=0x7f030005;
+        public static final int abc_action_bar_tabbar=0x7f030006;
+        public static final int abc_action_bar_title_item=0x7f030007;
+        public static final int abc_action_bar_view_list_nav_layout=0x7f030008;
+        public static final int abc_action_menu_item_layout=0x7f030009;
+        public static final int abc_action_menu_layout=0x7f03000a;
+        public static final int abc_action_mode_bar=0x7f03000b;
+        public static final int abc_action_mode_close_item=0x7f03000c;
+        public static final int abc_activity_chooser_view=0x7f03000d;
+        public static final int abc_activity_chooser_view_include=0x7f03000e;
+        public static final int abc_activity_chooser_view_list_item=0x7f03000f;
+        public static final int abc_expanded_menu_layout=0x7f030010;
+        public static final int abc_list_menu_item_checkbox=0x7f030011;
+        public static final int abc_list_menu_item_icon=0x7f030012;
+        public static final int abc_list_menu_item_layout=0x7f030013;
+        public static final int abc_list_menu_item_radio=0x7f030014;
+        public static final int abc_popup_menu_item_layout=0x7f030015;
+        public static final int abc_search_dropdown_item_icons_2line=0x7f030016;
+        public static final int abc_search_view=0x7f030017;
+        public static final int activity_main=0x7f030018;
+        public static final int example=0x7f030019;
+        public static final int screen_login=0x7f03001a;
+        public static final int screen_menu=0x7f03001b;
+        public static final int screen_question=0x7f03001c;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
+        public static final int test_inflate_screen_menu=0x7f03001e;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1164,17 +1165,18 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int action_settings=0x7f0a000f;
+        public static final int action_settings=0x7f0a0010;
         public static final int app_name=0x7f0a000d;
-        public static final int btn_continue=0x7f0a0012;
+        public static final int btn_continue=0x7f0a0013;
         /**  buttons 
          */
-        public static final int btn_next=0x7f0a0011;
-        public static final int btn_start=0x7f0a0013;
-        public static final int hello_world=0x7f0a000e;
+        public static final int btn_next=0x7f0a0012;
+        public static final int btn_start=0x7f0a0014;
+        public static final int hello_world=0x7f0a000f;
+        public static final int menu_activity=0x7f0a000e;
         /**  others  
          */
-        public static final int question_type=0x7f0a0010;
+        public static final int question_type=0x7f0a0011;
     }
     public static final class style {
         /** 
