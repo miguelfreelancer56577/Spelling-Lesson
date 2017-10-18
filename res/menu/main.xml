@@ -20,5 +20,11 @@
         android:orderInCategory="100"
         android:title="screen 3"
         app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action4"
+        android:orderInCategory="100"
+        android:title="screen 4"
+        app:showAsAction="never"/>
 
 </menu>

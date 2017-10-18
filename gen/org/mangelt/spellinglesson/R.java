@@ -990,9 +990,10 @@ containing a value of this type.
         public static final int vinilos_arte_arbol_con_letras_verdes_para_su_diseno=0x7f02005d;
     }
     public static final class id {
-        public static final int action1=0x7f050043;
-        public static final int action2=0x7f050044;
-        public static final int action3=0x7f050045;
+        public static final int action1=0x7f050044;
+        public static final int action2=0x7f050045;
+        public static final int action3=0x7f050046;
+        public static final int action4=0x7f050047;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1010,6 +1011,7 @@ containing a value of this type.
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int container=0x7f05003c;
+        public static final int content=0x7f050043;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
@@ -1111,10 +1113,12 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static final int abc_search_view=0x7f030016;
         public static final int activity_main=0x7f030017;
-        public static final int screen_login=0x7f030018;
-        public static final int screen_menu=0x7f030019;
-        public static final int screen_question=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int example=0x7f030018;
+        public static final int screen_login=0x7f030019;
+        public static final int screen_menu=0x7f03001a;
+        public static final int screen_question=0x7f03001b;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
+        public static final int test_inflate_screen_menu=0x7f03001d;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;

@@ -1,4 +1,9 @@
-package org.mangelt.spellinglesson;
+package org.mangelt.spellinglesson.activities;
+
+import org.mangelt.spellinglesson.R;
+import org.mangelt.spellinglesson.R.id;
+import org.mangelt.spellinglesson.R.layout;
+import org.mangelt.spellinglesson.R.menu;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
@@ -9,6 +14,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.os.Build;
 
 public class MainActivity extends ActionBarActivity {
@@ -26,6 +33,7 @@ public class MainActivity extends ActionBarActivity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
+        
     }
 
 
@@ -64,6 +72,13 @@ public class MainActivity extends ActionBarActivity {
             .commit();
             return true;
         }
+        if (id == R.id.action4) {
+        	layout = R.layout.test_inflate_screen_menu;
+        	getSupportFragmentManager().beginTransaction()
+            .add(R.id.container, new PlaceholderFragmentTest())
+            .commit();
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -79,6 +94,21 @@ public class MainActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(layout, container, false);
+            return rootView;
+        }
+    }
+    
+    public static class PlaceholderFragmentTest extends Fragment {
+
+        public PlaceholderFragmentTest() {
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(layout, container, false);
+            FrameLayout content = (FrameLayout) rootView.findViewById(id.content);
+            View child = inflater.inflate(R.layout.example, content);
             return rootView;
         }
     }
