@@ -26,6 +26,10 @@
             android:name="org.mangelt.spellinglesson.activities.MenuActivity"
             android:label="@string/menu_activity" >
         </activity>
+        <activity
+            android:name="org.mangelt.spellinglesson.activities.AskActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

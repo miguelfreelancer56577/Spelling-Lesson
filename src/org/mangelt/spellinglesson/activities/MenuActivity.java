@@ -10,6 +10,7 @@ import org.mangelt.spellinglesson.database.DataBase;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
@@ -28,6 +29,7 @@ public class MenuActivity extends ActionBarActivity {
 
 	private final String log = MenuActivity.class.getSimpleName();
 	public ArrayList<ContentValues> lessons = new ArrayList<ContentValues>();
+	public final static String EXTRA_ID_LESSON = "id_lesson";
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,12 +43,15 @@ public class MenuActivity extends ActionBarActivity {
         FrameLayout content = (FrameLayout) this.findViewById(id.content);
         LayoutInflater inflater = (LayoutInflater)getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View child = inflater.inflate(R.layout.example, content);
-        RelativeLayout onclick = (RelativeLayout) child.findViewById(id.onclick);
+        final RelativeLayout onclick = (RelativeLayout) child.findViewById(id.onclick);
         TextView txt1 = (TextView)child.findViewById(id.txt1);
         txt1.setText(lessons.get(0).getAsString("description"));
+        onclick.setId(lessons.get(0).getAsInteger("id_lesson"));
         onclick.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-            	
+            	Intent sendIntent = new Intent(MenuActivity.this, AskActivity.class);
+            	sendIntent.putExtra(EXTRA_ID_LESSON, onclick.getId());
+        		startActivity(sendIntent);
             }
         });
     }
