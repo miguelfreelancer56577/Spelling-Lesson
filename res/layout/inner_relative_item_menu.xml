@@ -1,0 +1,32 @@
+   <RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:gravity="center" >
+   
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="lesson"
+        android:scaleType="centerCrop"
+        android:src="@drawable/confirm_shopping_cart_icon_94980"
+         />
+    
+    <TextView 
+       android:text="lesson 45"
+       android:textSize="16sp"
+       android:tag="txt"
+       android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+       android:layout_marginTop="100dp"
+       android:textAlignment="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#FF0000" />
+
+</RelativeLayout>
+		

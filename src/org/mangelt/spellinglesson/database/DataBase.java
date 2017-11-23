@@ -36,6 +36,13 @@ public class DataBase extends SQLiteHelper{
 			createStructureCols(TBLLESSONS, columns);
 			ArrayList<String> rows = new ArrayList<String>();
 			rows.add("1@5A");
+//			rows.add("2@lesson 5");
+//			rows.add("3@6A");
+//			rows.add("4@6B");
+//			rows.add("5@7A");
+//			rows.add("6@7B");
+//			rows.add("7@8A");
+//			rows.add("8@8B");
 			populateTable(TBLLESSONS, columns, rows);
 		}
 //		table catalog_spanish
